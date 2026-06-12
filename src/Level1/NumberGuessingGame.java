@@ -36,7 +36,7 @@ public class NumberGuessingGame {
                     System.out.println("Congratulations! You guessed the number in " + attempts + " attempts.");
                 }
             } else {
-                System.out.println("Invalid input. Please enter a valid integer.");
+                System.out.println("Invalid input. Please enter a valid integer!");
                 scanner.next(); // Clear the invalid token from the scanner
             }
         }
